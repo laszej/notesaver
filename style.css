@@ -66,14 +66,3 @@ padding: 5px;
     font-weight:bold;
 }
 
-#delete{
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 10px;
-    min-height: 50px;
-    min-width: 100px;
-    border-radius: 5%;
-    background: steelblue;
-    border: none; 
-    padding: 5px;
-    font-weight:bold;
-}
