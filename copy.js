@@ -8,7 +8,8 @@ const form = document.getElementById("form")
 let todos = JSON.parse(localStorage.getItem("todos")) || []
 
     lista.innerHTML = todos
-    addTask.addEventListener("click", ()=> {
+    addTask.addEventListener("click", (e)=> {
+    e.preventDefault()      
     let todo = `<div class="content" style="float:left">${input.value}</div>`   
     todos+=todo  
     localStorage.setItem("todos", JSON.stringify(todos))
@@ -18,6 +19,7 @@ let todos = JSON.parse(localStorage.getItem("todos")) || []
     })
 
     removeTask.addEventListener("click", ()=>{
+    
      deleteAll()
     })
 
