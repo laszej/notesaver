@@ -17,7 +17,7 @@ let todos = JSON.parse(localStorage.getItem("todos")) || []
     input.value=""
     })
 
-    usun.addEventListener("click", ()=>{
+    removeTask.addEventListener("click", ()=>{
      deleteAll()
     })
 
