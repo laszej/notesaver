@@ -1,0 +1,80 @@
+body{
+font-family: 'Ubuntu', sans-serif;    
+background: lightblue;    
+text-align: center;
+background-image: url("notes.jpg");
+background-size: cover;
+
+}
+
+#form{
+margin-bottom:15px;    
+}
+
+#lista
+{color: black;
+margin-top: 20px;}
+
+#dodaj{ 
+font-family: 'Ubuntu', sans-serif; margin-left: 10px;    
+min-height: 50px;
+min-width: 100px;
+border-radius: 5%;
+background: steelblue;
+border: none; 
+padding: 5px;
+    font-weight:bold;
+}
+
+.content{
+    float: left;
+    min-height: 100px;
+    max-width: 30vmin;
+    min-width: 30vmin;
+    border-radius: 5%;
+    background: lightgrey;
+    border: none; 
+    padding: 10px;
+    font-weight:bold;
+    margin-right: 15px;
+    margin: 10px;
+    align-items:center;
+    }
+
+    .content:hover{
+        background: darkgrey;
+        
+    }
+#input{
+    padding: 5px;
+    border: none;
+    text-align: center;
+    max-width: 50vmin;
+    font-size: 16px;
+    margin-bottom:15px;
+    
+}
+
+#usun{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10px;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 5%;
+    background: red;
+    border: none; 
+    padding: 5px;
+    font-weight:bold;
+}
+
+.deleteBtn{
+    height: 30px;
+    width: 30px;
+    color:black;
+    background:lightgrey;
+    border:none;
+    margin-left: 70%;
+    margin-top: 60%;
+}
+
+
