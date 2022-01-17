@@ -4,8 +4,7 @@ background: lightblue;
 text-align: center;
 background-image: url("notes.jpg");
 background-size: cover;
-background-repeat: no-repeat;   
-
+background-attachment: fixed;    
 }
 
 #form{
