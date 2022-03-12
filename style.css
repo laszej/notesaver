@@ -43,9 +43,12 @@ padding: 5px;
     }
 
     .content:hover{
-        background: darkgrey;
-        
-    }
+        background: darkgrey;}
+
+    .content:hover > .deleteBtn{
+    background: darkgrey;}
+    
+
 #input{
     padding: 5px;
     border: none;
