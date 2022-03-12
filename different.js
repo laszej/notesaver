@@ -35,6 +35,8 @@ main()
     input.value=""
     }
 
+    
+    input.addEventListener("keydown", (e)=>{if(e.key === "Enter"){main()}})
 
     removeTask.addEventListener("click", ()=>{deleteAll()})
 
