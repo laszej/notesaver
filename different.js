@@ -43,13 +43,7 @@ main()
     function deleteAll()
     {localStorage.clear();
     lista.innerHTML = ""  
-    todos=""
-    location.reload()
-    }
-
-  function remove()
-    {  let wyjeb0 = document.querySelector(".content")
-      wyjeb0.remove()
+    todos=[]
     }
 
     function deleteItem(index){
