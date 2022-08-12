@@ -24,6 +24,7 @@ border-radius: 5%;
 background: steelblue;
 border: none; 
 padding: 5px;
+    color:white;
     font-weight:bold;
 }
 
@@ -76,7 +77,7 @@ padding: 5px;
 .deleteBtn{
     height: 30px;
     width: 30px;
-    color:white;
+    color:black;
     background:lightgrey;
     border:none;
     margin-left: 70%;
